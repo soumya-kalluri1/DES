@@ -93,14 +93,23 @@ public class KeyGeneration {
 			}
 			lefthalf[lefthalf.length-1] = store;
 		}
+		/*System.out.println("\n\nrotated lefthalf:");
+		for (int i=0; i<lefthalf.length; i++) {
+			System.out.print(lefthalf[i]);
+		}
 		
+		System.out.println("\n\nrotated righthalf:"); */
 		for (int i=0; i<rotate; i++) {
-			store = righthalf[i];
+			store = righthalf[0];
 			for (int j=0; j<righthalf.length-1; j++) {
 				righthalf[j] = righthalf[j+1];
 			}
 			righthalf[righthalf.length-1] = store;
 		}
+		/*for (int i=0; i<righthalf.length; i++) {
+			System.out.print(righthalf[i]);
+		}
+		System.out.println("");*/
 		
 		//put it back together
 		int[] mixedkey = new int[lefthalf.length + righthalf.length];

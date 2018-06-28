@@ -37,11 +37,13 @@ public class KeyGenerationTester {
 			System.out.print(returnedKey[i]);
 		}
 		
+		
 		System.out.print("\nK2: ");
 		returnedKey = test.returnKey(2);
 		for(int i=0; i<returnedKey.length; i++) {
 			System.out.print(returnedKey[i]);
 		}
+		
 		
 		System.out.print("\nK3: ");
 		returnedKey = test.returnKey(3);

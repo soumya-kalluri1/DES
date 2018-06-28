@@ -9,7 +9,7 @@ public class EqualityChecker {
 			String first = test.nextLine();
 			System.out.println("Second thing to compare: ");
 			String second = test.nextLine();
-			System.out.println(i);
+			System.out.println(i+1);
 			if (first.equals(second)) System.out.println("true");
 			else System.out.println("false");
 		}
