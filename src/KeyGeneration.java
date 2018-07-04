@@ -38,6 +38,11 @@ public class KeyGeneration {
 		}
 	}
 	
+	public KeyGeneration(String inputtedkey) {
+		HexToBinary runner = new HexToBinary(inputtedkey);
+		key = runner.returnBinary();
+	}
+
 	//redundant, it's in returnKey now
 /*
 	private int[] generateKeys() {

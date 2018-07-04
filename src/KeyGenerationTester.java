@@ -22,10 +22,10 @@ public class KeyGenerationTester {
 		
 		String[] stringkey = new String[key.length()];
 		int[] intkey = new int[stringkey.length];
-		for (int i=0; i<stringkey.length; i++) {
+		/*for (int i=0; i<stringkey.length; i++) {
 			stringkey[i] = key.substring(i, i+1);
 			intkey[i] = Integer.parseInt(stringkey[i]);
-		}
+		} */
 		
 		/*int[] keyTest = {0,0,0,0, 1,1,1,0, 0,0,1,1, 0,0,1,0, 1,0,0,1, 0,0,1,0, 0,0,1,1, 0,0,1,0, 
 						 1,1,1,0, 1,0,1,0, 0,1,1,0, 1,1,0,1, 0,0,0,0, 1,1,0,1, 0,1,1,1, 0,0,1,1}; */
